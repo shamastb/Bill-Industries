@@ -3,12 +3,37 @@ body {
     color: #f2f2f2;
     font-family: "Courier New", monospace;
     text-align: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 h1 {
+    justify-content: center;
     color: #ffffff;
     font-size: 2.5em;
     margin-top: 0;
 }
+
+h2 {
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.nav {
+    position: static;
+    justify-content: center;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
 p {
     font-size: 1.0em;
     line-height: 1.5;
@@ -17,38 +42,86 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
+
 .project-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .project {
     margin: 10px;
     width: 30%;
     background-color: #2e2e2e;
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
 }
+
 .project img {
     max-width: 100%;
     max-height: 200px;
 }
+
 .project h3 {
     margin-top: 10px;
     font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
   }
+
 .project p {
     margin: 10px;
     font-size: 0.9em;
+}
+
+.ethics-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ethics {
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+.ethics img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.ethics h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ethics h4 {
+    text-align: left;
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ethics p {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.1em;
 }
