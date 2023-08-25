@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg 
+    version="1.2" baseProfile="tiny"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    viewBox="0 0 300 400">
+    <g fill="none" stroke="black" stroke-width="10">
+        <line x1="50" y1="125" x2="50" y2="175" />
+        <line x1="250" y1="125" x2="250" y2="175"/>
+        <polygon points="100,50 100,250 200,150 100,50" mask="url(#stripe1)"/>
+        <line x1="200" y1="50" x2="200" y2="250" />
+        <line x1="100" y1="150" x2="200" y2="150"/>
+        <line x1="150" y1="300" x2="150" y2="350"/>
+    </g>
+<defs>
+  <mask id="stripe1">   
+    <rect x="0" y="50" width="200" height="200" fill="white"/>
+  </mask>
+</defs>
+</svg>
